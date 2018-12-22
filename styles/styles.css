@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 100%;
+    color: black;
+    background-color: #e0ebe8;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#nav-bar{
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    background-color: #e0ebe8;
+    display: block;
+    text-align: right;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(85, 107, 85);
+    margin: 4em;
+    padding: fixed;
+}
+
+#welcome-section{
+    height: 100vh;
+    
+}
+
+h1{
+    
+    font-size: 40px;
+    padding-top: 7em;
+    text-align: center;
+}
+
+h2, h3{
+    color: rgb(85, 107, 85);
+    text-align: center;
+}
+
+.project-tile{
+    background-color: #fff;
+    padding-top: 6em;
+}
+
+.img-con{
+    display: flex;
+    margin: 0 auto;
+}
+
+img:hover {
+    background-color: black;
+    color: black;
+}
+
+.con1{
+    padding-left: 12em;
+    padding-bottom: 5em;
+}
+
+
+.con3{
+    padding-left: 12em;
+    padding-bottom: 5em;
+}
+
+
+img{
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    border: 2px solid black;
+   
+}
+
+
+.desc {
+    text-align: center;
+    font-size: 80%;
+}
+
+#profile-link{
+    background-color: rgb(164, 247, 148);
+
+}
+
+
+.link{
+    top: 0;
+    bottom: 0;
+    color: rgb(103, 150, 103);
+    font-weight: bold;
+    height: 20vh;
+    padding-top: 6em;
+}
+
+.link1, .link2, .link3, .link4{
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 50%;
+    color: rgb(51, 25, 68);
+    border: 2px solid rgb(77, 145, 77);
+}
+
+.contact1{
+    display: block;
+}
+
+#Contact{
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(51, 25, 68);
+    color: #fff;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em; 
+
+}
+
+.p1{
+    font-size: 40px;
+    color: black;
+}
+
+.p2{
+    font-size: 20px;
+    color: black;
+}
+
+@media(min-width: 720px){
+
+    body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-bar{
+        width: 80%;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .project-tile{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
