@@ -9,89 +9,57 @@
 </head>
 <body>
 
-        <nav id="nav-bar" class="nav-bar">
-                <a href="#About" id="nav-link">About</a>
-                <a href="#Work" id="nav-link">Work</a>
-                <a href="#Contact" id="nav-link">Contact</a>
-            </nav>
-    
-    <section id="welcome-section">
-        <h1 id="About">Hey i'am Malick.</h1>
-        <h3>a web developer</h3>
-
-    </section>
-
-    <section id="projects">
-
-        <div id="Work" class="project-tile">
-
-            <h2>These are some of my projects..</h2>
-
-            <div class="img-con">
-
-                <div class="con1">
-                    <a  target="_black" href="https://pamaseng00.github.io/tribute-page/" href=""><img src="images/tribute.png" alt="tribute"></a>
-                    <!-- <div class="desc">Tribute Page</div> -->
-                </div>
-
-                <div class="con2">
-                    <a  target="_black" href="https://pamaseng00.github.io/malicksenghore.com/"><img src="images/project.png" alt="Personal Webpage"></a>
-                    <!-- <div class="desc">Personal Website</div> -->
-                </div>
-
-            </div>
-
-            <div class="img-con">
-
-                    <div class="con3">
-                        <a target="_black" href="images/survey.png"><img src="images/survey.png" alt="Survey Form"></a>
-                        
-                        <!-- <div class="desc">Survey Form</div> -->
-                        
-                    </div>
+    <nav>
+        <ul id='navbar'>
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div id="welcome-section" class="intro">
+      
+        <h1>Hey i'am Malick.</h1>
+        <p>a web developer</p>
+      
+      
+      </div>
+      <div id="projects" class="work">
+        <h2 class="work-header">These are some of my projects..</h2>
+        <a href="https://pamaseng00.github.io/tribute-page/" target="_blank" class="project project-tile">
+          <img class="project-pic" src="images/tribute.png" alt="project">
+          <div class="project-title">Tribute Page</div>
+        </a>
+        <a href="https://pamaseng00.github.io/survey-form/" target="_blank" class="project project-tile">
+          <img class="project-pic" src="images/survey.png" alt="project">
+          <div class="project-title">Survey Porm</div>
+        </a>
+        <a href="https://pamaseng00.github.io/documentation-page/" target="_blank" class="project project-tile">
+          <img class="project-pic" src="images/doc.png" alt="project">
+          <div class="project-title">Technical Documentation Page</div>
+        </a>
+        <a href="https://codepen.io/FreeCodeCamp/pen/mVEJag" target="_blank" class="project project-tile">
+          <img class="project-pic" src="images/product.png" alt="project">
+          <div class="project-title">Product Landing Page</div>
+        </a>
         
-                     <div class="con4">
-                         <a target="_black" href="images/product.png"><img src="images/product.png" alt="Product Landing Pagee"></a>
-                         
-                         <!-- <div class="desc">Product Landing Page</div> -->
-                    </div>
-                
-                </div>
-        
+      </div>
+      <div id="contact" class="contact">
+        <div class="header">
+          <h1>Let's work together...</h1>
+          <p>How do you take your coffee?</p>
         </div>
-
-    </section>
-
-    <div id="profile-link" >
-
-
-        <div class="contact1" id="Contact">
-            
-            <div class="link">
-                
-               <p class="p1">Let's work together...</p>
-               <p class="p2">Hit me up on either of the following!</p>
-            </div>
-
-            <div class="link"></div>
-                <a class="link1" target="_blanck" href="https://github.com/PamaSeng00">GitHub</a>
-                <a class="link2" target="_blanck" href="https://facebook.com/malick.senghore.75?refid=8">Facebook</a>
-                <a class="link3" href="mailto:pama.seng00@gmail.com">Email</a>
-                <a class="link4" href="tel:00220 3540327">Call me</a>
-            </div>
-
-
-            <div class="link">
-                   
-            </div>
-
-        </div>
-
-        <div class="footer">
-            <p>Malick Senghore 2018 &copy;</p>
-        </div>
+        <a href="https://facebook.com/freecodecamp" target="_blank" class="contact-details">Facebook</a>
+        <a id='profile-link' href="https://github.com/freecodecamp" target="_blank" class="contact-details">GitHub</a>
+        <a href="https://twitter.com/freecodecamp" target="_blank" class="contact-details">Twitter</a>
+        <a href="mailto:example@example.com" class="contact-details">Send a mail</a>
+        <a href="tel:555-555-5555" class="contact-details">Call me</a>
+      </div>
+      <footer>
+          &copy;Malick Senghore - 2018
+      </footer>
 
     
-
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
