@@ -11,7 +11,10 @@ body {
 
 .intro {
   top: 0;
-  background: #e0ebe8;
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
   min-height: 55vh;
   padding-top: 45vh;
   /*   line-height: 100vh; */
